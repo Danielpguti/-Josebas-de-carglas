@@ -11,3 +11,8 @@ export interface TireSize {
   aspect: number;
   rim: number;
 }
+
+export interface Message {
+  role: 'user' | 'assistant' | 'system';
+  content: string;
+}
